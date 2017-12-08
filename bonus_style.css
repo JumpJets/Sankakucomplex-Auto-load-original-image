@@ -1,0 +1,21 @@
+@-moz-document domain("chan.sankakucomplex.com"), domain("idol.sankakucomplex.com") {
+div#post-content {
+	padding-top: 0 !important;
+}
+#headerlogo {
+	height: 20px;
+	transform: scaleY(.2);
+}
+#right-col {
+	display: flex;
+}
+#post-content {
+	order: -1;
+}
+#sp1 {
+	display: none;
+}
+div.content, #recommendations span.thumb, div#post-view > div#right-col > div#edit {
+	width: unset !important;
+}
+}
