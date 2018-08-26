@@ -11,9 +11,9 @@
 // ==/UserScript==
 
 (function() {
-    'use strict';
+	'use strict';
 
-    let link = document.getElementById("highres");
+	let link = document.getElementById("highres");
 	if (typeof link !== 'undefined') {
 		let linkclick = document.getElementById("image-link");
 		linkclick.removeAttribute("href");
